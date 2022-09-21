@@ -83,13 +83,11 @@ width: 50px;
 background-color: black;
 
 }*/
-/*.formulario{
+.formulario{
 
-position:relative ;
-left: 800px;
+display: block;
 
-
-}*/
+}
 .modelos{
 
 height: 500px;
@@ -182,6 +180,18 @@ grid-area: "header";
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }  
+
+  .bordeMenu { border: 1px solid white;
+    display: flex;
+   
+   
+  display: inline-block;
+
+}
+a:hover {
+    color: white;
+  }
+
         
 @media screen and (max-width:500px) {
 
@@ -222,6 +232,14 @@ align-items: center;
 
 
 }
+.bordeMenu { border: 1px solid white;
+    display: flex;
+   
+  
+  flex-direction: column;
+  
+ }
+
 .menuPrincipal ul li{
  display: flex;
  flex-direction: column;
@@ -232,7 +250,11 @@ align-items: center;
 
 }
 
+.animacion{
 
+    height: 300px;
+    width:  300px;
 
+}
 }
 
